@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD622110-A124-0894-8D5B-CF5508C71FEE" name="Factura">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:21:01 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="serie" id="28A6B833-F21A-FDB1-29E0-B6C7380F1C7A">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:21:17 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="660234B7-2A9E-9AA6-CD06-C07C0EC3CFAA">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:22:29 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="12341D17-F078-EF11-E199-ADCE4E9B7E70">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:21:31 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pago" id="EDFF02D5-5BF8-C5AD-7A96-653CE8FD1C82">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:25:45 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="0ABAF624-86BD-80E1-AD4D-A4D3F04B2559">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:27:04 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugar" id="84B92416-CADF-D546-7736-FECA118C5758">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:34:21 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25AB033B-5AC1-1970-E25F-C0B2CB565F22" name="Factura PK">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 04:21:29 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28A6B833-F21A-FDB1-29E0-B6C7380F1C7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

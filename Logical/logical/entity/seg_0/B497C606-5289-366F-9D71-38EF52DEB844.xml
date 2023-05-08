@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B497C606-5289-366F-9D71-38EF52DEB844" name="Empleado">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:16:12 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="CEA00145-D634-2853-1079-4E55AB77BEAF">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:17:45 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="81F9949F-A614-F1A2-57A1-DB298230045C">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:17:57 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="D819CA8B-E2A1-5C02-F55D-D351383BB9BE">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:18:10 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="D8BFBF9A-A00D-1E4D-D75F-0BE5A2012E07">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:18:46 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="7D25E338-0D58-450E-839D-F5FBEA99D99D">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:19:54 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="59A16A56-BCBA-8AD8-07B0-766DCDF5DD90">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:27:54 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="5ACDF35A-7750-6DF9-8CFB-7D72CB3CD1AD">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:29:03 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dpi" id="1F2989C7-7987-2A41-D873-789FAA9CBFC3">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:29:23 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="DA8AC088-92D8-F48F-F9DD-7A9DDA060DF0">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:29:48 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B92D4735-A346-F326-0724-5F6FB1B8BDAB">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 02:21:58 UTC</createdTime>
+<generatorID>D05A3EA8-FA2A-54AB-0665-8CA21100F803</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<referedAttribute>C1B3FD51-4848-BBD9-74AE-0EA36F95A224</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="08132D21-46B4-A6F1-A268-40A279A20C32">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 03:50:45 UTC</createdTime>
+<generatorID>C7227580-8A18-5457-7B5D-26389E882BF7</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<referedAttribute>45BE75BA-F564-E62E-146F-69E70D259209</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="DAD642A3-B986-0EDB-396D-450D1DD52921">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 03:50:45 UTC</createdTime>
+<generatorID>C7227580-8A18-5457-7B5D-26389E882BF7</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<referedAttribute>38592967-6A88-17C0-7CC5-2DF7AD618075</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9D27BE0-2CB8-174B-0DE3-32E6F151B6C4" name="Empleado PK">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:17:56 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEA00145-D634-2853-1079-4E55AB77BEAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="744ABFCA-50D7-4D20-5ECA-D27C7F8C759F" name="Restaurante">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:16:06 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="38592967-6A88-17C0-7CC5-2DF7AD618075">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:30:40 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="CDA4E21A-AE66-1DFF-119B-F9F68666599C">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:31:38 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="municipio" id="2E85627E-E16F-E053-51C9-296379586D70">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:31:38 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zona" id="F5352783-D14F-5C8A-B7B7-D78BBC6EA739">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:32:04 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="4AF0817B-230F-4EDE-9E3B-A4CEC8657984">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:32:07 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="personal" id="AA3EBA3C-5FB6-B73A-F31B-1E61372B0C52">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:32:18 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parqueo" id="68EEC228-172B-79D2-DF12-B8D336144DAF">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:32:30 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDB30A66-E080-AE55-655D-247923986B2C" name="Restaurante PK">
+<createdBy>elmco</createdBy>
+<createdTime>2023-05-07 01:30:38 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="2D7A90CD-2581-32BD-D5A4-11A94869C9E3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45BE75BA-F564-E62E-146F-69E70D259209</attributeRef>
+<attributeRef>38592967-6A88-17C0-7CC5-2DF7AD618075</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
